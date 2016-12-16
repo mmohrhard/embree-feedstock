@@ -11,6 +11,18 @@ Summary: High Performance Ray Tracing Kernels
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/embree-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/embree-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/embree-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/embree-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/embree-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/embree-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/embree/badges/version.svg)](https://anaconda.org/conda-forge/embree)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/embree/badges/downloads.svg)](https://anaconda.org/conda-forge/embree)
+
 Installing embree
 =================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `embree` available on your platfor
 ```
 conda search embree --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/embree-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/embree-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/embree-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/embree-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/embree-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/embree-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/embree/badges/version.svg)](https://anaconda.org/conda-forge/embree)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/embree/badges/downloads.svg)](https://anaconda.org/conda-forge/embree)
 
 
 Updating embree-feedstock
