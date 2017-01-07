@@ -1,10 +1,6 @@
 #!/bin/bash
 set -e
 cd lib
-if [ "$(uname)" == "Darwin" ]; then
-  ln -s libembree.* libembree.dylib
-else
-  ln -s libembree.* libembree.so
-fi
+ln -s libembree.* libembree${SHLIB_EXT}
 cd ..
 cp -rv * "${PREFIX}"
