@@ -1,6 +1,9 @@
 #!/bin/bash
 set -e
 cd lib
-ln -s libembree.* libembree${SHLIB_EXT}
+if [ ! -f "libembree${SHLIB_EXT}" ]
+then
+  ln -s libembree.so libembree${SHLIB_EXT}
+fi
 cd ..
 cp -rv * "${PREFIX}"
