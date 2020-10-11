@@ -5,11 +5,9 @@ Home: https://embree.github.io/
 
 Package license: Apache 2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/embree-feedstock/blob/master/LICENSE.txt)
 
 Summary: High Performance Ray Tracing Kernels
-
-
 
 Current build status
 ====================
